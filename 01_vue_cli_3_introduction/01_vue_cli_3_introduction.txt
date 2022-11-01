@@ -1,0 +1,27 @@
+# vue cli 3
+
+1. new version of vue cli - version 3, and that comes with some improvements and
+many new features
+2. rundown of noticeable new features, then each one in detail
+3. creating a project : 
+vue init template-name app-name
+old cli: vue init webpack-simple myapp
+new cli: vue create myapp
+4. we dont use templates now, when we create a new vue app using vue create, we 
+get 2 options... option 1 : default preset --eslint, babel, ... option 2 :
+custom preset (using custom preset to add extra features to our vue application
+setup) -- vuex, vue router, pwa support, etc
+5. once we have created our project, vue still abstracts the webpack configuration
+--webpack configuration
+-webpack config abstracted away (hidden)
+-can tweak webpack config through vue.config.js file
+-can also edit the config indirectly with the use of plugins
+-this use of plugins now allows us to easily edit the configuration of our project
+at any point during the development without having to manually go into the webpack 
+file and configure things ourselves
+-plugins are like dependencies, but they can also edit our webpack config files 
+and source files too, and they can also add extra commands to the cli
+-another cool feature - instant prototyping
+-graphical user interface
+
+-installing new cli and create a new project with it
